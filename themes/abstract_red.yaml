@@ -1,0 +1,126 @@
+Abstract Red:
+  # Global
+  background-image: "center / cover no-repeat url('/local/backgrounds/red_abstract.jpg') fixed"
+  lovelace-background: var(--background-image)
+  primary-color: "#bc001c"
+  light-primary-color: "#e50017"
+  primary-text-color: "#fffbff"
+  disabled-text-color: "#9d9b9d"
+  primary-background-color: "#06181c"
+  secondary-background-color: rgba(7, 24, 31, 0.7)
+  divider-color: var(--primary-background-color)
+  accent-color: "#3e1e26"
+  selected-color: var(--light-primary-color)
+  # Fonts
+  primary-font-family: "Comfortaa"
+  paper-font-common-base_-_font-family: "var(--primary-font-family)"
+  paper-font-common-code_-_font-family: "var(--primary-font-family)"
+  paper-font-body1_-_font-family: "var(--primary-font-family)"
+  paper-font-subhead_-_font-family: "var(--primary-font-family)"
+  paper-font-headline_-_font-family: "var(--primary-font-family)"
+  paper-font-caption_-_font-family: "var(--primary-font-family)"
+  paper-font-title_-_font-family: "var(--primary-font-family)"
+  # Text
+  text-primary-color: var(--primary-text-color)
+  text-dark-color: var(--primary-text-color)
+  text-accent-color: var(--text-light-primary-color) # text sidebar notification bell
+  text-light-primary-color: var(--primary-background-color)
+  secondary-text-color: var(--primary-text-color)
+  # Lovelace YAML editor colors
+  dark-text-color: var(--primary-text-color) # header of raw YAML editor for Lovelace
+  dark-background-color: var(--primary-background-color) # header of raw YAML editor for Lovelace
+  color-on-error: var(--light-primary-color) # text on top of the "error" color (YAML card editor)
+  #
+  scrollbar-thumb-color: var(--primary-color) # Left Sidebar tab for scrolling
+  #
+  success-color: var(--switch-checked-track-color)
+  error-color: var(--label-badge-red)
+  warning-color: var(--state-icon-active-color)
+  info-color: var(--primary-color)
+  #
+  mdc-dialog-box-shadow: "0px 11px 15px -7px var(--light-primary-color), 0px 24px 38px 3px var(--light-primary-color), 0px 9px 46px 8px var(--light-primary-color)" # adds big shadows on pop-up boxes
+  # Sidebar Menu
+  sidebar-background-color: var(--primary-background-color)
+  sidebar-icon-color: var(--primary-color)
+  sidebar-text-color: var(--primary-text-color)
+  sidebar-selected-background-color: var(--primary-background-color)
+  sidebar-selected-icon-color: var(--primary-text-color)
+  sidebar-selected-text-color: var(--sidebar-selected-icon-color)
+  # States and Badges
+  state-icon-color: var(--primary-text-color)
+  state-icon-active-color: rgba(253, 236, 59, 1)
+  state-icon-unavailable-color: var(--disabled-text-color)
+  # Sliders
+  paper-slider-knob-color: var(--primary-text-color)
+  paper-slider-knob-start-color: var(--paper-slider-knob-color)
+  paper-slider-pin-color: var(--paper-slider-knob-color)
+  paper-slider-active-color: var(--primary-color)
+  paper-slider-secondary-color: var(--paper-slider-knob-color)
+  paper-slider-container-color: rgba(255, 255, 255, 0.5)
+  paper-slider-font-color: var(--primary-text-color)
+  ha-slider-background: none !important
+  # Labels
+  label-badge-background-color: "#23232E"
+  label-badge-text-color: var(--primary-text-color)
+  label-badge-red: rgba(242, 10, 7, 0.7)
+  # Cards
+  card-background-color: var(--secondary-background-color) # Unused entities table background
+  paper-listbox-background-color: var(--primary-background-color)
+  ha-card-border-radius: 20px
+  ha-card-background: "rgba(0, 0, 0, 0.2)"
+  paper-card-background-color: var(--ha-card-background)
+  mdc-theme-secondary: var(--primary-color) # Background for Plus sign when adding integrations
+  mdc-theme-on-secondary: var(--text-primary-color) # text of button for adding integrations
+  mdc-theme-on-primary: var(--text-primary-color) # text of buttons on dev-tools page and background of SAVE button on raw YAML editor for Lovelace
+  mdc-theme-primary: var(--primary-color)
+  #
+  paper-toast-color: var(--primary-background-color)
+  ha-picture-card-text-color: var(--primary-text-color)
+  ha-picture-icon-button-on-color: var(--ha-picture-card-text-color)
+  ha-card-box-shadow: "inset 2px 2px 13px 0px var(--secondary-background-color)"
+  # Mobile App Headers
+  app-header-background-color: var(--primary-background-color) # Header on dashboard. Header and footer on phone app
+  app-header-edit-background-color: var(--primary-background-color) # Header on dashboard editor
+  app-header-edit-text-color: var(--text-primary-color)
+  # Toggles
+  paper-toggle-button-checked-button-color: "#484848"
+  paper-toggle-button-checked-bar-color: "#484848"
+  paper-toggle-button-unchecked-button-color: var(--paper-toggle-button-checked-button-color)
+  paper-toggle-button-unchecked-bar-color: var(--disabled-text-color)
+  # Table row
+  table-row-background-color: var(--primary-background-color)
+  table-row-alternative-background-color: var(--secondary-background-color)
+  # Switches
+  switch-checked-color: "#0ed741"
+  switch-checked-track-color: "#30e58a"
+  switch-checked-button-color: var(--primary-text-color)
+  switch-unchecked-button-color: var(--disabled-text-color)
+  switch-unchecked-track-color: var(--paper-toggle-button-checked-bar-color)
+  #
+  mdc-text-field-ink-color: var(--primary-text-color)
+  mdc-text-field-fill-color: var(--ha-card-background)
+  # Inputs
+  input-idle-line-color: ""
+  input-hover-line-color: var(--light-primary-color)
+  input-disabled-line-color: "var(--secondary-background-color)"
+  input-outlined-idle-border-color: var(--primary-background-color)
+  input-outlined-hover-border-color: var(--primary-background-color)
+  input-outlined-disabled-border-color: "#F1F1F1"
+  input-fill-color: var(--primary-background-color)
+  input-disabled-fill-color: var(--secondary-background-color)
+  input-ink-color: var(--primary-text-color)
+  input-label-ink-color: var(--primary-text-color)
+  input-disabled-ink-color: ""
+  input-dropdown-icon-color: var(--ha-card-background)
+  # Energy
+  energy-grid-consumption-color: var(--primary-color)
+  energy-grid-return-color: var(--switch-checked-track-color)
+  energy-solar-color: var(--state-icon-active-color)
+  energy-battery-out-color: "#103b7d"
+  energy-battery-in-color: "#086b17"
+  # Log book menus
+  lumo-primary-text-color: var(--primary-text-color)
+  lumo-secondary-text-color: var(--primary-text-color)
+  lumo-primary-color: var(--primary-color)
+  # Custom Cards
+  dark-primary-color: var(--secondary-background-color)
